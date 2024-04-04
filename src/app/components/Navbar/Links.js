@@ -36,11 +36,6 @@ const Links = () => {
             path: '/#home'
         },
         {
-            id: 2,
-            route: "About",
-            path: '/#about'
-        },
-        {
             id: 3,
             route: "Skills",
             path: '/#skill'
