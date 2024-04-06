@@ -9,7 +9,6 @@ const EBGaramond = EB_Garamond({ subsets: ['latin'] });
 const Skills = () => {
 
     const [skillsData, setSkillsData] = useState(null);
-    const [showAllSkills, setShowAllSkills] = useState(false);
 
     useEffect(() => {
         fetch('https://portfolio-backend-30mp.onrender.com/api/v1/get/user/65b3a22c01d900e96c4219ae')
