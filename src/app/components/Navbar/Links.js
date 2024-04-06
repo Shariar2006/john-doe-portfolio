@@ -52,6 +52,16 @@ const Links = () => {
         },
         {
             id: 6,
+            route: "Timeline",
+            path: '/#timeline'
+        },
+        {
+            id: 7,
+            route: "Testimonials",
+            path: '/#testimonials'
+        },
+        {
+            id: 8,
             route: "Contact",
             path: '/#contact'
         },
