@@ -5,6 +5,7 @@
     justify-content: center;
     background-color: white;
     color: black;
+    position: fixed;
 }
 
 .bg{
@@ -14,6 +15,7 @@
     bottom: 0;
     width: 400px;
     background: white;
+    /* z-index: 1; */
 }
 
 .links{
@@ -37,4 +39,5 @@
     left: 38px;
     background-color: transparent;
     border: none;
+    z-index: 2;
 }

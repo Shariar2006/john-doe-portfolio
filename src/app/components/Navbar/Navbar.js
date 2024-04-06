@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div>
                     <Sidebar></Sidebar>
                 </div>
-                <motion.h1 className='text-3xl font-semibold mt-8 mr-10'
+                <motion.h1 className='text-3xl font-semibold  mr-10'
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
