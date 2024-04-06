@@ -1,11 +1,21 @@
+'use client'
 import React from 'react';
 import './sidebar.css'
 import {motion} from 'framer-motion'
+// import audio from "../../../../public/audio.mp3"
+import {useSound} from 'use-sound';
 
 const ToggleButton = ({ setOpen }) => {
+    const [playClick] = useSound('@/public/audio.mp3');
+
+    const toggle = () =>{
+        playClick()
+        setOpen((perv) => !perv)
+    }
+
     return (
         <div>
-            <button className='btn' onClick={() => setOpen((perv) => !perv)}>
+            <button className='btn' onClick={toggle}>
 
                 <svg width='23' height='23' viewBox='0 0 23 23'>
                     <motion.path strokeWidth='3' stroke='black' color='black' strokeLinecap='round' variants={{

@@ -13,7 +13,6 @@ const Hero = () => {
             .then(data => setHeroData(data?.user?.about))
     }, [])
 
-    console.log(heroData)
 
 
     return (

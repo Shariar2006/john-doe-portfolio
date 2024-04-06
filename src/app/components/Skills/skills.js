@@ -18,8 +18,6 @@ const Skills = () => {
 
     const filteredSkillsData = skillsData?.filter(item => item.enabled === true);
 
-    console.log(filteredSkillsData)
-
     return (
         <div style={EBGaramond.style} className='p-20 min-h-screen'>
             <Title header='PROFESSIONAL SKILLS' subTitle='MY Talent' />

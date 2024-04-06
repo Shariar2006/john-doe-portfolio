@@ -14,8 +14,6 @@ const Services = () => {
 
     const filteredServicesData = servicesData?.filter(item => item.enabled === true);
 
-    console.log(filteredServicesData)
-
 
     return (
         <div className='min-h-screen'>

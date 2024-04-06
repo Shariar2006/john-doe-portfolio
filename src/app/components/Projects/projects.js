@@ -15,8 +15,6 @@ const Projects = () => {
 
     const filteredProjectsData = projectsData?.filter(item => item.enabled === true);
 
-    console.log(filteredProjectsData)
-
     return (
         <div className='min-h-screen'>
             <Title header='PORTFOLIO' subTitle='MY Cases' />
